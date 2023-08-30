@@ -1,0 +1,191 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar related styles */
+.nav-title {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    max-width: 1920px;
+    gap: 70px;
+
+}
+
+.flower-shop-title {
+    padding: 190px 0px 0px 200px;
+}
+
+.shop-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.shop-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 32px 0px 32px;
+
+}
+
+.background-image {
+    padding: 50px 100px 0px 0px;
+    width: 635px;
+    
+}
+
+
+
+.primary-btn {
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+
+
+}
+
+/* Our Featured Flowers section */
+
+.section-title-container {
+    margin: 150px 650px 50px;
+    text-align: center;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    padding-top: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.flower-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.tree {
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* support related styles */
+
+.support-container {
+
+    display: flex;
+    margin: 130px 220px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 75px 170px;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1440px;
+}
+
+.support-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Hot deal content  */
+.Hot-deal-section {
+    display: flex;
+    gap: 180px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0px 350px;
+}
+
+.hot-deal-title {
+    padding: 230px 0px 20px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+/* decoration related styles */
+.decoraton {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+/* latest-deal related styles */
+.latest-deal {
+    margin: 130px 240px;
+    background-image: url('../images/Rectangle\ 9.png');
+    text-align: center;
+
+}
+
+.deal-title {
+
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#eml {
+    border-radius: 5px;
+    width: 700px;
+    height: 64px;
+    border: 0px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+/* footer styles */
+.footer-section {
+    background: #111010;
+    padding: 120px 600px;
+    text-align: center;
+    color: white;
+}
+
+.footertitle {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
